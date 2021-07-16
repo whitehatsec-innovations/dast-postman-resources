@@ -61,7 +61,7 @@
 					"formdata": [
 						{
 							"key": "collectionFile",
-							"description": "Postman collection referencing the API you wish to test",
+							"description": "Postman collection referencing the API you wish to test.  Please ensure file is either in the Postman preference 'Working directory' or set Postman 'Allow reading files outside working directory' preference to On.",
 							"type": "file",
 							"src": []
 						},
@@ -73,7 +73,13 @@
 						},
 						{
 							"key": "environmentFile",
-							"description": "(optional) Postman evironment file",
+							"description": "(optional) Postman evironment file.  Please ensure file is either in the Postman preference 'Working directory' or set Postman 'Allow reading files outside working directory' preference to On.",
+							"type": "file",
+							"src": []
+						},
+												{
+							"key": "settingsFile",
+							"description": "(optional) IDD Scan settings file.  Please ensure file is either in the Postman preference 'Working directory' or set Postman 'Allow reading files outside working directory' preference to On.",
 							"type": "file",
 							"src": []
 						}
